@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CocoaPods_Public_DemoViewController : UIViewController
 
 
 @end

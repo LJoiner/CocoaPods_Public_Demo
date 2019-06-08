@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  CocoaPods_Public_DemoViewController.m
 //  CocoaPods_Public_Demo
 //
 //  Created by lijunlong on 2019/6/7.
 //  Copyright © 2019 LJoiner. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CocoaPods_Public_DemoViewController.h"
 
-@interface ViewController ()
+@interface CocoaPods_Public_DemoViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CocoaPods_Public_DemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
