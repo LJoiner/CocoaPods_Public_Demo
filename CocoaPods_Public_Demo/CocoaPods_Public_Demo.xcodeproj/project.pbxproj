@@ -14,7 +14,7 @@
 		0F73DB8022AB998D0060130F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F73DB7F22AB998D0060130F /* main.m */; };
 		0F73DB8A22AB998D0060130F /* CocoaPods_Public_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F73DB8922AB998D0060130F /* CocoaPods_Public_DemoTests.m */; };
 		0F73DB9522AB998D0060130F /* CocoaPods_Public_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F73DB9422AB998D0060130F /* CocoaPods_Public_DemoUITests.m */; };
-		0F73DC2122ABA64A0060130F /* CocoaPods_Public_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F73DC2022ABA64A0060130F /* CocoaPods_Public_DemoViewController.m */; };
+		0F73DC2522ABB1D20060130F /* CocoaPods_Public_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F73DC2422ABB1D20060130F /* CocoaPods_Public_DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		0F73DB9022AB998D0060130F /* CocoaPods_Public_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPods_Public_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F73DB9422AB998D0060130F /* CocoaPods_Public_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPods_Public_DemoUITests.m; sourceTree = "<group>"; };
 		0F73DB9622AB998D0060130F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F73DC1F22ABA64A0060130F /* CocoaPods_Public_DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPods_Public_DemoViewController.h; sourceTree = "<group>"; };
-		0F73DC2022ABA64A0060130F /* CocoaPods_Public_DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPods_Public_DemoViewController.m; sourceTree = "<group>"; };
+		0F73DC2322ABB1D20060130F /* CocoaPods_Public_DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPods_Public_DemoViewController.h; sourceTree = "<group>"; };
+		0F73DC2422ABB1D20060130F /* CocoaPods_Public_DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPods_Public_DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		0F73DB6F22AB998C0060130F /* CocoaPods_Public_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				0F73DC1E22ABA64A0060130F /* Classes */,
+				0F73DC2222ABB1D20060130F /* Classes */,
 				0F73DB7022AB998C0060130F /* AppDelegate.h */,
 				0F73DB7122AB998C0060130F /* AppDelegate.m */,
 				0F73DB7622AB998C0060130F /* Main.storyboard */,
@@ -131,14 +131,13 @@
 			path = CocoaPods_Public_DemoUITests;
 			sourceTree = "<group>";
 		};
-		0F73DC1E22ABA64A0060130F /* Classes */ = {
+		0F73DC2222ABB1D20060130F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0F73DC1F22ABA64A0060130F /* CocoaPods_Public_DemoViewController.h */,
-				0F73DC2022ABA64A0060130F /* CocoaPods_Public_DemoViewController.m */,
+				0F73DC2322ABB1D20060130F /* CocoaPods_Public_DemoViewController.h */,
+				0F73DC2422ABB1D20060130F /* CocoaPods_Public_DemoViewController.m */,
 			);
-			name = Classes;
-			path = ../../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +272,7 @@
 			files = (
 				0F73DB8022AB998D0060130F /* main.m in Sources */,
 				0F73DB7222AB998C0060130F /* AppDelegate.m in Sources */,
-				0F73DC2122ABA64A0060130F /* CocoaPods_Public_DemoViewController.m in Sources */,
+				0F73DC2522ABB1D20060130F /* CocoaPods_Public_DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

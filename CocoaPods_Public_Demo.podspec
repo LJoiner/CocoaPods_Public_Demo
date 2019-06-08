@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaPods_Public_Demo"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A short description of CocoaPods_Public_Demo."
 
   # This description is used to generate tags and improve search results.
