@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaPods_Public_Demo"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A short description of CocoaPods_Public_Demo."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ spec.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PLATFORM_DIR)/Developer/Library
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "CocoaPods_Public_Demo/CocoaPods_Public_Demo/Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ spec.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PLATFORM_DIR)/Developer/Library
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+   spec.framework  = "SystemConfiguration"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
